@@ -7,7 +7,10 @@ module.exports = {
       './src/**/*.html',
       './src/**/*.js',
       './src/**/*.tsx'
-    ]
+    ],
+    options: {
+      safelist: ['text-fire', 'text-leaf', 'text-sun', 'text-moon', 'text-wind', 'text-frost']
+    }
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
