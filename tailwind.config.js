@@ -9,7 +9,7 @@ module.exports = {
       './src/**/*.tsx'
     ],
     options: {
-      safelist: ['text-fire', 'text-leaf', 'text-sun', 'text-moon', 'text-wind', 'text-frost']
+      safelist: ['text-fire', 'text-leaf', 'text-sun', 'text-moon', 'text-wind', 'text-frost', 'fill-current']
     }
   },
   darkMode: false, // or 'media' or 'class'
