@@ -24,6 +24,8 @@
   "homepage": "https://github.com/tehpsalmist/gloomhaven-character-class-printables#readme",
   "devDependencies": {
     "@parcel/transformer-postcss": "^2.0.0-nightly.488",
+    "@parcel/transformer-svg-react": "^2.0.0-nightly.1739",
+    "@parcel/transformer-svgo": "^2.0.0-nightly.1739",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "latest",
