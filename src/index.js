@@ -37,29 +37,29 @@ export const App = props => {
     <main className='w-8.5in h-11in border print:border-0 m-auto p-0.5in'>
       <section className='h-full w-full grid grid-cols-5 row-auto col-auto place-items-center border print:border-0'>
         <BeastTyrant height='1in' width='1in' />
-        <Berserker height='1in' width='1in' />
+        <Berserker className='flip' height='1in' width='1in' />
         <Brute height='1in' width='1in' />
-        <Cragheart height='1in' width='1in' />
+        <Cragheart className='flip' height='1in' width='1in' />
         <Doomstalker height='1in' width='1in' />
         <Elementalist height='1in' width='1in' />
-        <MindThief height='1in' width='1in' />
-        <NightShroud height='1in' width='1in' />
+        <MindThief className='flip' height='1in' width='1in' />
+        <NightShroud className='flip' height='1in' width='1in' />
         <Plagueherald height='1in' width='1in' />
         <Spellweaver height='1in' width='1in' />
-        <Summoner height='1in' width='1in' />
+        <Summoner className='flip' height='1in' width='1in' />
         <Sunkeeper height='1in' width='1in' />
         <Tinkerer height='1in' width='1in' />
-        <Soothsinger height='1in' width='1in' />
-        <Scoundrel height='1in' width='1in' />
-        <Sawbones height='1in' width='1in' />
+        <Soothsinger className='flip' height='1in' width='1in' />
+        <Scoundrel className='flip' height='1in' width='1in' />
+        <Sawbones className='flip' height='1in' width='1in' />
         <Quartermaster height='1in' width='1in' />
-        <Wind height='1in' width='1in' />
+        <Wind  className='flip text-wind' height='1in' width='1in' />
         <Sun height='1in' width='1in' />
-        <Fire height='1in' width='1in' />
+        <Fire className='flip text-fire' height='1in' width='1in' />
         <Frost height='1in' width='1in' />
-        <Leaf height='1in' width='1in' />
-        <Moon height='1in' width='1in' />
-        <Leaf className='text-black' height='1in' width='1in' />
+        <Leaf className='flip text-leaf' height='1in' width='1in' />
+        <Moon className='flip text-moon' height='1in' width='1in' />
+        <Leaf className='flip text-black' height='1in' width='1in' />
       </section>
     </main>
   </div>

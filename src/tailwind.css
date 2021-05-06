@@ -8,4 +8,7 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
+  .flip {
+    transform: rotateY(180deg);
+  }
 }
