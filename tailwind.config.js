@@ -16,6 +16,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        beasttyrant: '#B16D52',
+        berserker: '#CD5C5C',
+        brute: '#4682B4',
+        cragheart: '#908D39',
+        doomstalker: '#45B1E8',
+        elementalist: '#A2AEAB',
+        mindthief: '#697E9A',
+        nightshroud: '#9999CC',
+        plagueherald: '#83D0C6',
+        spellweaver: '#AE809E',
+        summoner: '#E47698',
+        sunkeeper: '#F4C430',
+        tinkerer: '#C3B091',
+        soothsinger: '#D7837F',
+        scoundrel: '#B9C46A',
+        sawbones: '#E6E4D4',
+        quartermaster: '#CD8429',
         leaf: '#8aa63d',
         fire: '#e25426',
         sun: '#efac1e',
